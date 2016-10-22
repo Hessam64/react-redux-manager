@@ -34,17 +34,17 @@ class LoginForm extends Component {
                     </Button>
                 </CardSection>
             </Card>
-        )
+        );
     }
 }
-const styles = {
+/*const styles = {
 
     errorTestStyle: {
         fontSize: 20,
         alignSelf: "center",
         color: "red"
     }
-};
+};*/
 const mapStateToProps = state => {
     return {
         email: state.auth.email,
